@@ -101,6 +101,7 @@ pub enum Allergen_ {
     Cats = 1 << 7,
 }
 
+use crate::allergies::Allergen_::*;
 const ALLERGENS: [Allergen_; 8] =
     [Eggs, Peanuts, Shellfish, Strawberries, Tomatoes, Chocolate, Pollen, Cats];
 
